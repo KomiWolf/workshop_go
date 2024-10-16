@@ -16,7 +16,7 @@ type core struct {
 }
 
 func (c *core) init() {
-	c.port = "8080"
+	c.port = "8000"
 	c.router = mux.NewRouter()
 	routes.Init(c.router)
 }
